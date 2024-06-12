@@ -42,9 +42,9 @@ body {
   display: inline-block;
   color: #000;
 }
+
 .btn:hover {
   padding: 1rem;
-  /* background-color: #adb5bd; */
   background-color: #ccc;
   margin-left: 1rem;
 }
@@ -71,47 +71,47 @@ body {
   font-family: "Playfair Display";
   letter-spacing: 0.5rem;
   position: absolute;
-  top: 90%;
-  left: 7%;
+  top: 42rem;
+  left: 12rem;
 }
 
 #about {
-  width: 100vw;
-  height: auto;
-  padding: 6.4rem 38.8rem;
+  width: 120rem;
+  padding: 3.2rem 12.8rem;
+  margin: 3.2rem auto;
   display: flex;
   justify-content: center;
-  gap: 4.8rem;
   align-items: center;
+  gap: 4.8rem;
 }
 
 .about__img--container {
+  flex: 0.6;
 }
 
 .about__img {
   max-width: 100%;
-  height: auto;
   opacity: 0.75;
   border-radius: 0.4rem;
 }
 
 .about__text--container {
-  width: 45vw;
+  flex: 1;
   text-align: center;
   padding: 1rem 2rem;
 }
 
 .about__text--title {
-  font-size: 3.6rem;
+  font-size: 3rem;
   font-family: "Playfair Display";
   font-weight: 400;
   letter-spacing: 0.3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   line-height: 1.5;
 }
 
 .about__text--sub {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "Playfair Display";
   font-weight: 400;
   letter-spacing: 0.4rem;
@@ -121,7 +121,7 @@ body {
 
 .about__text--context {
   font-family: "Playfair Display";
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
   margin-bottom: 1.4rem;
   line-height: 1.5;
@@ -153,25 +153,26 @@ hr {
 }
 
 #menu {
-  width: 100vw;
-  height: auto;
-  padding: 6.4rem 38.8rem;
+  width: 120rem;
+  padding: 3.2rem 12.8rem;
+  margin: 3.2rem auto;
   display: flex;
   justify-content: center;
   gap: 4.8rem;
-  /* background-color: red; */
-  /* align-items: center; */
+}
+
+.menu__img--container {
+  flex: 0.6;
 }
 
 .menu__img {
-  max-width: 100%;
-  height: auto;
   opacity: 0.75;
   border-radius: 0.4rem;
 }
 
 .menu__text--container {
   padding: 1rem 2rem;
+  flex: 1;
 }
 
 .menu__text--title {
@@ -204,9 +205,8 @@ hr {
 }
 
 #contact {
-  width: 100vw;
-  height: auto;
-  padding: 6.4rem 38.8rem;
+  width: 120rem;
+  padding: 3.2rem 12.8rem;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
